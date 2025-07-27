@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Primary Font */
+.primary-font {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+}
+
+/* Secondary Font */
+.secondary-font {
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 400; */
+}
+
+/* List hover effect */
+.list-hover {
+  transition: border-bottom 0.3s ease-in-out;
+  color: black;
+  border-bottom: 4px solid transparent;
+}
+.list-hover:hover {
+  border-bottom: 4px solid limegreen;
+}
+
+/* Lime shadown for boxes */
+/* .lime-shadow{
+  box-shadow: 1px 2px 8px lime;
+  animation: box-shadow 0.6s ease-in;
+}
+
+.lime-shadow:hover{
+  box-shadow: 0.4px 4px 8px lime;
+} */
+
+#home {
+  background-image: url("./assets/abstract-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
